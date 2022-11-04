@@ -13,6 +13,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+
 }
 
 .app__logo {
@@ -40,6 +41,11 @@ nav {
     flex-direction: row;
     border-top: 1px solid #F5F5F5;
     flex: 1;
+    max-width: 100%;
+
+    @media screen and (min-width: 30rem) {
+      width: 75%;
+    }
 
 
       .img__title {
@@ -57,6 +63,10 @@ nav {
 .div__journal {
   margin-top: 20px;
   margin-left: 20px;
+
+  @media screen and (min-width: 30rem) {
+    width: 75%;
+  }
 }
 
 .img__visit {
@@ -132,7 +142,7 @@ span {
   font-family: Inter;
 
   @media screen and (min-width: 30rem) {
-    width: 50%;
+    width: 75%;
   }
 
 
@@ -147,12 +157,12 @@ h6 {
   bottom: 0;
   color: white;
   background: #F55A5A;
-  justify-content: center;
+  text-align: center;
   vertical-align: middle;
   width: 100%;
   font-weight: 400;
   font-size: 12px;
-  display: flex;
+
   
 }
 
