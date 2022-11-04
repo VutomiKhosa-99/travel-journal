@@ -44,7 +44,7 @@ nav {
     max-width: 100%;
 
     @media screen and (min-width: 30rem) {
-      width: 75%;
+      width: 100%;
     }
 
 
@@ -63,10 +63,6 @@ nav {
 .div__journal {
   margin-top: 20px;
   margin-left: 20px;
-
-  @media screen and (min-width: 30rem) {
-    width: 75%;
-  }
 }
 
 .img__visit {
@@ -141,10 +137,6 @@ span {
   text-align: left;
   font-family: Inter;
 
-  @media screen and (min-width: 30rem) {
-    width: 75%;
-  }
-
 
 }
 
@@ -162,6 +154,7 @@ h6 {
   width: 100%;
   font-weight: 400;
   font-size: 12px;
+  position: static;
 
   
 }
