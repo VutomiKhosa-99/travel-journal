@@ -1,0 +1,162 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  justify-content: center;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box ;
+  
+}
+
+.App {
+  padding: 20px;
+  
+}
+
+nav {
+  background-color:#F55A5A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.app__logo {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.p__logo { 
+  color: white;
+  width: 200px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  text-align: left;
+
+
+}
+
+
+.journal__card {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #F5F5F5;
+
+      .img__title {
+        height: 200px;
+        width: 125px;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      
+
+      }
+    }
+
+    .div__journal {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+.img__visit {
+                    
+    height: 14px;
+    width: 12px;
+   
+
+  }
+             
+.journal__card:first-child {
+  border-top: none;
+} 
+
+.p__title {
+  font-family: Inter;
+  font-weight: bolder;
+  font-size: 25px ;
+  line-height: 30px ;
+  text-transform: none;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.p__location {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-align: left;
+}
+
+span {
+  height: 13px;
+  width: 200px;
+  left: 247px;
+  top: 119px;
+  color: #918E9B;
+  text-transform: none;
+  text-decoration: underline;
+
+  a {
+      height: 13px;
+      width: 200px;
+      left: 247px;
+      top: 119px;
+      color: #918E9B;
+      text-transform: none;
+      text-decoration: underline; 
+  } 
+  
+  a:hover {
+    color: red;
+  }
+
+
+}
+
+.p__description {
+  width: 400px;
+  margin-top: 5px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Inter;
+
+
+}
+
+h6 {
+  margin-bottom: 0;
+}
+
+
+.app__footer {
+  bottom: 0;
+  color: white;
+  background: #F55A5A;
+  justify-content: center;
+  vertical-align: middle;
+  width: 100%;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  
+}
