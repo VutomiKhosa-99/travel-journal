@@ -1,6 +1,8 @@
 
 * {
   box-sizing: border-box ;
+  margin: 0px;
+  padding: 0px;
   
 }
 
@@ -37,6 +39,8 @@ nav {
     display: flex;
     flex-direction: row;
     border-top: 1px solid #F5F5F5;
+    flex: 1;
+
 
       .img__title {
         height: 200px;
@@ -117,7 +121,7 @@ span {
 }
 
 .p__description {
-  width: 400px;
+  width: 100%;
   margin-top: 5px;
   font-family: Inter;
   font-size: 10px;
@@ -126,6 +130,10 @@ span {
   letter-spacing: 0em;
   text-align: left;
   font-family: Inter;
+
+  @media screen and (min-width: 30rem) {
+    width: 50%;
+  }
 
 
 }
@@ -147,3 +155,4 @@ h6 {
   display: flex;
   
 }
+
