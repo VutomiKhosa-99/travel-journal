@@ -1,6 +1,6 @@
 # Welcome to my travel journal
 
-### [Live Website](https://chat-app-jsmastery.netlify.app)
+### [Live Website](https://travel-journal-2.netlify.app/)
 
 ## Introduction
 
@@ -36,6 +36,6 @@ Setup:
 
 ## Want to connect with me?
 
-Connect with me on LinkedIn by clicking this [link](https://www.linkedin.com/in/vutomi-luigi-khosa)
+### Connect with me on [LinkedIn](https://www.linkedin.com/in/vutomi-luigi-khosa)
 
 Enjoy!
