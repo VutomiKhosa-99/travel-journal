@@ -18,6 +18,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  min-height: 100vh;
 
 }
 
@@ -47,9 +48,11 @@ nav {
     border-top: 1px solid #F5F5F5;
     flex: 1;
     max-width: 100%;
+    min-height: 100vh;
 
     @media screen and (min-width: 30rem) {
       width: 100%;
+      min-height: 100vh;
     }
 
 
@@ -141,6 +144,7 @@ span {
   letter-spacing: 0em;
   text-align: left;
   font-family: Inter;
+  min-height: 100vh;
 
 
 }
