@@ -16,12 +16,6 @@ function App() {
     <div className="App">
         <NavBar />
         {cards}
-
-        <div className="app__footer">
-              <p> Developed by:&nbsp;
-                <a style={{color: "yellow"}} href="https://luigidigital.com"><b>Luigi Corporation</b></a>
-              </p>
-        </div>
     </div>
   )
 }
